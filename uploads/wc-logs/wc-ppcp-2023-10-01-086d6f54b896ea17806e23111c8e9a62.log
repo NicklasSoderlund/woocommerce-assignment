@@ -1,0 +1,405 @@
+2023-10-01T15:02:10+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.paypal.com/v2/checkout/orders
+    [method] => POST
+    [http_status] => 401
+    [request] => PaymentPlugins\PayPalSDK\Order Object
+(
+    [_values:protected] => Array
+        (
+            [intent] => CAPTURE
+            [payer] => PaymentPlugins\PayPalSDK\Payer Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [name] => PaymentPlugins\PayPalSDK\Name Object
+                                (
+                                    [_values:protected] => Array
+                                        (
+                                            [given_name] => Nicklas
+                                            [surname] => Söderlund
+                                        )
+
+                                    [mappings:protected] => Array
+                                        (
+                                        )
+
+                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                )
+
+                            [address] => PaymentPlugins\PayPalSDK\Address Object
+                                (
+                                    [_values:protected] => Array
+                                        (
+                                            [address_line_1] => Hallsbergsgatan 22
+                                            [address_line_2] => 
+                                            [admin_area_1] => 
+                                            [admin_area_2] => Bandhagen
+                                            [postal_code] => 12470
+                                            [country_code] => SE
+                                        )
+
+                                    [mappings:protected] => Array
+                                        (
+                                        )
+
+                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                )
+
+                            [email_address] => nicklassoderlund96@gmail.com
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+            [purchase_units] => PaymentPlugins\PayPalSDK\Collection Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [0] => PaymentPlugins\PayPalSDK\PurchaseUnit Object
+                                (
+                                    [_values:protected] => Array
+                                        (
+                                            [amount] => PaymentPlugins\PayPalSDK\Amount Object
+                                                (
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [value] => 341.25
+                                                            [currency_code] => SEK
+                                                            [breakdown] => PaymentPlugins\PayPalSDK\Breakdown Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [item_total] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => SEK
+                                                                                            [value] => 213.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [shipping] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => SEK
+                                                                                            [value] => 60.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [tax_total] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => SEK
+                                                                                            [value] => 68.25
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [discount] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => SEK
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [handling] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => SEK
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [mappings:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                )
+
+                                            [invoice_id] => 82
+                                            [custom_id] => 82
+                                            [items] => PaymentPlugins\PayPalSDK\Collection Object
+                                                (
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [0] => PaymentPlugins\PayPalSDK\Item Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [name] => SMAAK Dog Adult Grain Free Sensitive Fisk - 10kg
+                                                                            [quantity] => 5
+                                                                            [sku] => 12
+                                                                            [description] => Product ID: 39. Variation ID: 41
+                                                                            [unit_amount] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => SEK
+                                                                                            [value] => 40.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                            [1] => PaymentPlugins\PayPalSDK\Item Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [name] => Repboll
+                                                                            [quantity] => 1
+                                                                            [sku] => 16
+                                                                            [description] => Product ID: 21
+                                                                            [unit_amount] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => SEK
+                                                                                            [value] => 4.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                            [2] => PaymentPlugins\PayPalSDK\Item Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [name] => SMAAK Dog Adult Grain Free Sensitive Fisk
+                                                                            [quantity] => 1
+                                                                            [sku] => 39
+                                                                            [description] => Product ID: 39
+                                                                            [unit_amount] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => SEK
+                                                                                            [value] => 9.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [mappings:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                )
+
+                                            [description] => Order 82 from Woof-store
+                                            [shipping] => PaymentPlugins\PayPalSDK\Shipping Object
+                                                (
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [name] => PaymentPlugins\PayPalSDK\Name Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [full_name] => Nicklas Söderlund
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                            [address] => PaymentPlugins\PayPalSDK\Address Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [address_line_1] => Hallsbergsgatan 22
+                                                                            [address_line_2] => 
+                                                                            [admin_area_1] => 
+                                                                            [admin_area_2] => Bandhagen
+                                                                            [postal_code] => 12470
+                                                                            [country_code] => SE
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [mappings:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                )
+
+                                        )
+
+                                    [mappings:protected] => Array
+                                        (
+                                        )
+
+                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                )
+
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+            [application_context] => PaymentPlugins\PayPalSDK\OrderApplicationContext Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [shipping_preference] => SET_PROVIDED_ADDRESS
+                            [return_url] => http://localhost/woocommerce/wc-api/ppcp_order_return/?order_id=82&order_key=wc_order_JnJZkDIc17Bnc&payment_method=ppcp
+                            [cancel_url] => http://localhost/woocommerce/checkout/
+                            [brand_name] => Woof-store
+                            [user_action] => PAY_NOW
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+        )
+
+    [mappings:protected] => Array
+        (
+        )
+
+    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+)
+
+    [error] => Array
+        (
+            [error] => invalid_client
+            [error_description] => Client Authentication failed
+        )
+
+)
+
+2023-10-01T18:36:49+00:00 INFO Webhook could not be configured during connect process. PayPal does not allow webhooks where the domain is localhost.
