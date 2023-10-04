@@ -16,7 +16,6 @@ $supports = array(
 'thumbnail',
 'excerpt',
 'custom-fields',
-'comments',
 'revisions',
 'post-formats',
 );
