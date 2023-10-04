@@ -1,0 +1,4 @@
+2023-10-04T10:38:03+00:00 CRITICAL syntax error, unexpected token "else" in C:\xampp\htdocs\woocommerce\wp-content\themes\storefront-child\template-stores.php on line 17
+
+2023-10-04T10:45:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\woocommerce\wp-includes\class-wp-query.php on line 0
+

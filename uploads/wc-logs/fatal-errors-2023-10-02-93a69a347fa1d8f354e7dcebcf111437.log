@@ -1,0 +1,12 @@
+2023-10-02T20:32:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "post_type_news" not found or invalid function name in C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\woocommerce\wp-settings.php(632): do_action('init')
+#3 C:\xampp\htdocs\woocommerce\wp-config.php(95): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\woocommerce\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\woocommerce\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php on line 310
+
